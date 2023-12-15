@@ -1,0 +1,333 @@
+body, * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    color: #FFFFFF;
+    font-family: 'Helvetica Now Display';
+}
+body {
+    background-color: #202124;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+} 
+.container {
+    width: 1360px;
+    margin: 0 auto;
+}
+.header {
+    text-align: center;
+    display: flex;
+}
+.header__logo {
+    width: 58px;
+    height: 64px;
+}
+.header__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 370px;
+    line-height: 26.46px;
+}
+.header__menu-link {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    width: 89px;
+}
+.header__middle {
+    width: 1010px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 72px;
+    background-image: url(img/Vector\ 711.png);
+    background-repeat: no-repeat;
+    background-position: top 15% right 5%;
+    background-size: 556px;
+}
+.header__label {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 22px;
+    letter-spacing: 10%;
+}
+.header__works {
+    text-align: left;
+    display: inline-block;
+    width: 1000px;
+    /* background-position: top right; */
+}
+.header__works {
+    font-size: 115px;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 115px;
+    margin-top: 78px;
+    font-family: "Neue Metana Next";
+}
+.header__direction {
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+.header__promo {
+    width: 425px;
+    font-size: 18px;
+    display: inline-block;
+    line-height: 20.7px;
+    font-weight: 400;
+    margin-left: 80.5px;
+}
+.button {
+    background-color: #FF6A3A;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #202020;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 19.8px;
+    padding: 15px;
+    border-radius: 20px;
+}
+.button-logo {
+    margin-left: 16px;
+    width: 24px;
+    margin-top: -2px;
+}
+.services {
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+}
+.services__content {
+    display: inline-block;
+    width: 670px;
+    height: 360px;
+    vertical-align: top;
+}
+.number {
+    display: inline-block;
+    color: #202020;
+    padding: 12px 12px 10px 12px;
+    border-radius: 16px;
+    background-color:  #FFFFFF;
+    width: 54px;
+    height: 38px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+    margin-right: 20px;
+}
+.menu {
+    line-height: 22px;
+    font-size: 20px;
+    display: inline-block;
+}
+.services__text {
+    display: inline-block;
+    width: 550px;
+    font-size: 30px;
+    line-height: 34.5px;
+    margin-top: 50px;
+    margin-bottom: 156px;
+}
+.technologist, .design {
+    display: inline-block;
+    width: 665px;
+    height: 360px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    vertical-align: top;
+}
+.technologist {
+    background-color: #F8BC5C;
+}
+.design {
+    background-color: #FF6A3A;
+}
+.services__development {
+    display: inline-block;
+    width: 185.77px;
+    margin-top: 41px;
+    margin-left: 51px;
+}
+.name {
+    font-size: 54px;
+    line-height: 62.1px;
+    font-weight: 600;
+    font-family: "Neue Metana Next";
+    color: #202020;
+    text-align: right;
+}
+.name-development {
+    display: inline-block;
+    margin-left: 156px;
+    margin-top: 29.5px;
+}
+.technologist-margin, .design-margin,.services__content-margin {
+    margin-right: 20px;
+}
+.services__seo {
+    width: 325px;
+    margin-top: 28px;
+    margin-left: 23px;
+}
+.name-seo {
+    display: inline-block;
+    margin-left: 143px;
+    vertical-align: 30px;
+}
+.services__design {
+    width: 254px;
+    margin-left: 15px;
+}
+.name-design {
+    display: inline-block;
+    margin-top: 29px;
+    margin-left: 181px;
+    vertical-align: 40px;
+}
+.services__context {
+    width: 257px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.name-context {
+    display: block;
+    margin-top: 38px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+.services__serm {
+    width: 160px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.name-serm {
+    margin-top: 58px;
+    margin-right: 40px;
+}
+.services__crm {
+    width: 210px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.name-crm {
+    margin-top: 22.48px;
+    margin-right: 40px;
+}
+.services__scraping {
+    width: 210px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.name-scraping {
+    margin-top: 32.53px;
+    margin-right: 40px;
+}
+.button__services-width {
+    width: 325px;
+}
+.services__bottom {
+    display: flex;
+    flex-direction: row;
+
+}
+.runline {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1015px;
+    margin-right: 16px;
+    border: 1px solid #FF6A3A;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.run {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    animation: marquee-infinite 5s infinite cubic-bezier(0.46,1.01,0.47,1) -2s;
+}
+.runline:hover .run {
+    animation-play-state: paused;
+}
+@keyframes marquee-infinite {
+    0% {
+        opacity: 0;
+        transform: translate(0%,0%);
+    }
+    1% {
+        opacity: 0.9;
+    }
+    100% {
+        transform: translate(100%,0%);
+    }
+}
+
+.runline__text {
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 35.2px;
+    letter-spacing: 2%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FF6A3A;
+    margin-right: 110px;
+}
+.runline__image {
+    margin-right: 24px;
+    margin-left: 24px;
+}
+.about {
+    margin-top: 139px;
+}
+.about__info {
+    width: 1360px;
+    margin-top: 50px;
+    display: inline-flex;
+    margin-bottom: 140px;
+}
+.about__goose {
+    width: 537px;
+    font-weight: 600;
+    font-size: 82px;
+    line-height: 66px;
+    font-style: "Neue Metana Next";
+    letter-spacing: 5px;
+    margin-right: 153px;
+}
+.about__production {
+    font-size: 30px;
+    line-height: 34.5px;
+    letter-spacing: 2px;
+    width: 670px;
+    display: inline-block;
+}
+.about__production-margin {
+    margin-top: 24px;
+    display: inline-block;
+}
+.about_flexposition {
+    display: inline-flex;
+    flex-direction: column;
+}
