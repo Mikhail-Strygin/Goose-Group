@@ -331,3 +331,78 @@ a {
     display: inline-flex;
     flex-direction: column;
 }
+.about__wehere {
+    display: flex;
+    flex-direction: column;
+}
+.about__task {
+    display: inline-block;
+    height: 248px;
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.about__task:last-child {
+    margin-bottom: 140px;
+}
+.about__infotask {
+    display: inline-block;
+    width: 506px;
+    font-family: "Neue Metana Next";
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 5px;
+    color: #202020;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.about__content {
+    display: inline-block;
+    width: 519px;
+    margin-left: 194px;
+    margin-top: 40px;
+    vertical-align: top;
+}
+
+.about__count, .about__userinfo {
+    color: #202124;
+}
+.about__count {
+    display: inline-block;
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 17.6px;
+    letter-spacing: 2px;
+}
+.about__userinfo {
+    font-size: 18px;
+    line-height: 20.7px;
+}
+.about__task-bgdivone {
+    background: #fff url(img/Star\ 1.png) top 48px left 213px no-repeat;
+}
+.about__infotask-bgpone {
+    background: url(img/Vector\ 721.png) top left 332.5px no-repeat;
+}
+.about__task-bgdivtwo {
+    background: #fff url(img/Star\ 2.png) top 29px left 348px no-repeat;
+}
+.about__infotask-bgptwo {
+    width: 620px;
+    background: url(img/Vector\ 713.png) top 87.41px left 400px/ 180px 59.09px no-repeat;
+}
+.about__userinfo-margin {
+    margin-left: 81px;
+}
+.about__task-bgdivthree {
+    background: #fff url(img/Union.png) top 39px left 160px/160px 160px no-repeat;
+    padding-bottom: 40px;
+    box-sizing: content-box;
+}
+.about__infotask-bgpthree {
+    width: 630px;
+    background: url(img/Vector\ 720.png) top 44px left 461.5px/ 170px 52.5px no-repeat;
+}
+.about__content-marginone {
+    margin-left: 71px;
+}
