@@ -250,6 +250,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: nowrap;
     width: 1015px;
     margin-right: 16px;
     border: 1px solid #FF6A3A;
@@ -258,8 +259,9 @@ a {
 }
 .run {
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     justify-content: flex-end;
+    flex-wrap: nowrap;
     width: 100%;
     animation: marquee-infinite 5s infinite cubic-bezier(0.46,1.01,0.47,1) -2s;
 }
@@ -405,4 +407,115 @@ a {
 }
 .about__content-marginone {
     margin-left: 71px;
+}
+.team__choose {
+    border-radius: 20px;
+    margin-top: 50px;
+    background: #F8BC5C url(img/Vector\ 712.png) top 79.33px right 40px no-repeat;
+}
+.team__content {
+    display: inline-block;
+    color: #202020;
+    width: 502px;
+    font-family:"Neue Metana Next";
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.team__member {
+    display: inline-block;
+    color: #202020;
+    width: 380px;
+    margin-top: 43px;
+    margin-left: 138px;
+    font-size: 18px;
+    line-height: 20.7px;
+    vertical-align: top;
+}
+.team__people {
+    margin-top: 38px;
+}
+.team__people-lead {
+    display: inline-block;
+    width: 261px;
+    height: 350px;
+    border-radius: 20px;
+
+}
+.team__people-name {
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 12px;
+    color: #202020;
+    margin-left: 12px;
+    font-size: 18px;
+    line-height: 20.7px;
+    letter-spacing: 2px;
+}
+.team__people-title {
+    display: block;
+    font-size: 12px;
+    color: #202020;
+    line-height: 13.8px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 41px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+}
+.pm {
+    background: #fff url(img/Mask\ group.png) bottom -1px left no-repeat;
+}
+.mr_11 {
+    margin-right: 10px;
+}
+.mt_11 {
+    margin-top: 11px;
+}
+.dev {
+    background: #fff url(img/image\ 138.png) bottom -2px left/264px no-repeat;
+}
+.des {
+    background: #fff url(img/paloma.png) bottom -1px left no-repeat;
+}
+.des2 {
+    background: #fff url(img/ferran.png) bottom -1px left no-repeat;
+}
+.seo-title {
+    background: #fff url(img/agus.png) bottom -1px left no-repeat;
+}
+.dev_2 {
+    background: #fff url(img/alberto.png) bottom -1px left no-repeat;
+    margin-left: 274px;
+}
+.dev_3 {
+    background: #fff url(img/javied.png) bottom -1px left no-repeat;
+}
+.seo-title_2 {
+    background: #fff url(img/cris.png) bottom -1px left no-repeat;
+}
+.team__bottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 140px;
+}
+.team-br {
+    border: 1px solid #F8BC5C;
+}
+.team-color {
+    color: #F8BC5C;
+}
+.team-bg {
+   background-color: #F8BC5C;
+}
+.team-mr_0 {
+    margin-right: 0px;
+}
+.team-mr {
+    margin-right: 50px;
 }
