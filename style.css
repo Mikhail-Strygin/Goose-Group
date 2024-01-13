@@ -46,6 +46,11 @@ a {
   font-weight: 700;
   letter-spacing: 1px;
   width: 89px;
+  color: #fff;
+}
+
+.menu-link:active {
+  color: #ff6a3a;
 }
 .header__middle {
   width: 1010px;
