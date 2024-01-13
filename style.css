@@ -563,6 +563,9 @@ a {
   display: inline-block;
   width: 326px;
 }
+.footer {
+  padding-bottom: 40px;
+}
 .footer_flex {
   display: flex;
   align-items: center;
