@@ -1,0 +1,32 @@
+.contacts_margin-80 {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.question {
+  margin-bottom: 120px;
+}
+.question_flex {
+  display: flex;
+  justify-content: space-between;
+}
+.question__text {
+  display: inline-block;
+  max-width: 722px;
+  font-family: "Neue Metana Next";
+  font-weight: 600;
+  font-size: 60px;
+  letter-spacing: 2px;
+}
+.question__info-link {
+  display: inline-block;
+  max-width: 507px;
+}
+.question__info {
+  display: inline-block;
+  max-width: 507px;
+  font-size: 18px;
+  margin-bottom: 32px;
+}
+.question__button {
+  background-color: #f8bc5c;
+}
