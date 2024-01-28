@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="contacts-style.css" />
     <style>
       @font-face {
         font-family: "Helvetica Now Display";
@@ -13,6 +12,15 @@
           url("HelveticaNowDisplay-Light.woff2") format("woff2"),
           url("HelveticaNowDisplay-Light.woff") format("woff"),
           url("HelveticaNowDisplay-Light.ttf") format("truetype");
+      }
+      @font-face {
+        font-family: 'Helvetica Now Display';
+        src: local('Helvetica Now Display Bold'), local('Helvetica-Now-Display-Bold'),
+        url('HelveticaNowDisplay-Bold.woff2') format('woff2'),
+        url('HelveticaNowDisplay-Bold.woff') format('woff'),
+        url('HelveticaNowDisplay-Bold.ttf') format('truetype');
+        font-weight: 700;
+        font-style: normal;
       }
       @font-face {
         font-family: "Neue Metana Next";
@@ -43,7 +51,7 @@
         </div>
       </div>
     </header>
-    <section class="contacts contacts_margin-80">
+    <div class="contacts contacts_margin-80">
       <div class="container">
         <a href="contacts.html" class="number">01</a>
         <p class="menu">CONTACTS</p>
@@ -65,20 +73,20 @@
             </p>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="question">
-      <div class="container question_flex">
-        <span class="question__text">Ready to work with us?</span>
-        <div class="question__info-link">
-          <p class="question__info">
-            If you feel we are a good fit, please get in touch with us so we can
-            get to know each other.
-          </p>
-          <a href="" class="button question__button"
-            >collaborate with goose group
-            <img src="img/Vector.png" alt="" class="button-logo"
-          /></a>
+        <div class="question">
+          <div class="question_flex">
+            <span class="question__text">Ready to work with us?</span>
+            <div class="question__info-link">
+              <p class="question__info">
+                If you feel we are a good fit, please get in touch with us so we
+                can get to know each other.
+              </p>
+              <a href="" class="button question__button"
+                >collaborate with goose group
+                <img src="img/Vector.png" alt="" class="button-logo"
+              /></a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
