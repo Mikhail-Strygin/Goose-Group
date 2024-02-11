@@ -124,9 +124,37 @@
 .advantages__promo {
   font-size: 18px;
   line-height: 20.7px;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   color: #989ea4;
   max-width: 496px;
   margin-top: 25px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
+}
+.advantages_width-250 {
+  max-width: 250px;
+}
+.advantages__heading-img {
+  max-width: 54px;
+  max-height: 36px;
+}
+.advantages_width-400 {
+  max-width: 400px;
+}
+.advantages__image {
+  max-width: 402px;
+  border-radius: 10px;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 72%;
+}
+.advantages__position {
+  position: relative;
+  border: 1px solid red;
+}
+.advantages__background-img {
+  position: absolute;
+  color: #fff;
+  top: 32.5%;
+  left: 73.5%;
 }

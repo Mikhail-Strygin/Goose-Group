@@ -333,11 +333,11 @@ a:active {
   margin-bottom: 140px;
 }
 .about__goose {
-  width: 537px;
+  max-width: 537px;
   font-weight: 600;
-  font-size: 82px;
+  font-size: 75px;
   line-height: 66px;
-  font-style: "Neue Metana Next";
+  font-style: "Neue Metana Next,sans-serif";
   letter-spacing: 5px;
   margin-right: 153px;
 }
