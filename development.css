@@ -158,3 +158,126 @@
   top: 32.5%;
   left: 73.5%;
 }
+.menu-width {
+  width: 102px;
+}
+.development__number {
+  vertical-align: top;
+}
+.menu-number_mr {
+  margin-right: 140px;
+}
+.stageswork__info {
+  display: inline-flex;
+  width: 1040px;
+  justify-content: space-between;
+}
+.stageswork__operation {
+  border: 1px solid #ff6a3a;
+  border-radius: 20px;
+  /* padding: 40px 15px 378px 15px; */
+  min-width: 92px;
+  max-width: 500px;
+  box-sizing: border-box;
+  background-color: #202020;
+  display: inline-block;
+  margin-left: 10px;
+}
+.stageswork__number {
+  display: inline-block;
+  padding: 40px 8px 378px 8px;
+  min-width: 92px;
+  font-family: "Neue Metana Next";
+  font-weight: 600;
+  line-height: 16.18px;
+  text-align: center;
+  color: #ff6a3a;
+}
+.stageswork__heading {
+  display: none;
+}
+.stageswork__promo {
+  display: none;
+}
+.stageswork__operation:first-child {
+  background-color: #ff6a3a;
+  text-align: left;
+  color: #202020;
+  padding: 40px;
+  font-family: "Neue Metana Next";
+  font-weight: 600;
+  line-height: 16.18px;
+  display: inline-block;
+  vertical-align: top;
+}
+.stageswork__operation:first-child > .stageswork__number {
+  padding: 0;
+  text-align: left;
+  color: #202020;
+}
+.stageswork__operation:first-child > .stageswork__heading {
+  display: block;
+  font-family: "Neue Metana Next";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28.8px;
+  margin-top: 20px;
+  width: 415px;
+  height: 167px;
+  color: #202020;
+}
+.stageswork__operation:first-child > .stageswork__promo {
+  display: inline-block;
+  width: 415px;
+  font-size: 18px;
+  line-height: 20.7px;
+  color: #202020;
+  font-weight: 400;
+  margin-top: 70px;
+}
+.stageswork__operation:hover > .stageswork__operation:first-child {
+  display: inline-block;
+  padding: 40px 15px 378px 15px;
+  min-width: 92px;
+  font-family: "Neue Metana Next";
+  font-weight: 600;
+  line-height: 16.18px;
+  text-align: center;
+  color: #ff6a3a;
+}
+.stageswork__operation:hover {
+  background-color: #ff6a3a;
+  text-align: left;
+  color: #202020;
+  padding: 35px;
+  font-family: "Neue Metana Next";
+  font-weight: 600;
+  line-height: 16.18px;
+  display: inline-block;
+  vertical-align: top;
+}
+.stageswork__operation:hover > .stageswork__number {
+  padding: 0;
+  text-align: left;
+  color: #202020;
+}
+.stageswork__operation:hover > .stageswork__heading {
+  display: block;
+  font-family: "Neue Metana Next";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28.8px;
+  margin-top: 20px;
+  width: 422px;
+  height: 167px;
+  color: #202020;
+}
+.stageswork__operation:hover > .stageswork__promo {
+  display: inline-block;
+  width: 422px;
+  font-size: 18px;
+  line-height: 20.7px;
+  color: #202020;
+  font-weight: 400;
+  margin-top: 70px;
+}
